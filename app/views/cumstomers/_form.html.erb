@@ -1,0 +1,32 @@
+<%= form_with(model: cumstomer, local: true) do |form| %>
+  <% if cumstomer.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(cumstomer.errors.count, "error") %> prohibited this cumstomer from being saved:</h2>
+
+      <ul>
+      <% cumstomer.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :customerID %>
+    <%= form.number_field :customerID, id: :cumstomer_customerID %>
+  </div>
+
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name, id: :cumstomer_name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :surename %>
+    <%= form.text_field :surename, id: :cumstomer_surename %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

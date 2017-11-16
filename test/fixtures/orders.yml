@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  orderID: 1
+  customerID: 1
+  orderID: 1
+  total: 1
+  delivered: 2017-11-15 22:10:44
+
+two:
+  orderID: 1
+  customerID: 1
+  orderID: 1
+  total: 1
+  delivered: 2017-11-15 22:10:44
