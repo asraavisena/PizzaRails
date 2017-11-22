@@ -1,4 +1,4 @@
 class Order < ApplicationRecord
-    belongs_to:customers
+    belongs_to:cumstomers
     has_many:menuitems
 end
