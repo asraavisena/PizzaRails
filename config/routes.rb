@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   devise_for :users
-  resources :menuitems
+  resources :menuitems, except: [:destroy]
   resources :orders
   resources :cumstomers
   get 'welcome/index'
