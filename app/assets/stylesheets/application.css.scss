@@ -14,3 +14,14 @@
  *= require_self
  */
  @import "bootstrap";
+
+ $primaryColor: #eeffcc;
+
+ body {
+   $primaryColor: #ccc;
+   background: $primaryColor;
+ }
+
+ p {
+   color: $primaryColor;
+ }
