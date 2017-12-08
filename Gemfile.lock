@@ -220,6 +220,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  autoprefixer-rails
   bootstrap (~> 4.0.0.beta2)
   bootstrap-sass
   byebug
