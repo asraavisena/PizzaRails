@@ -5,7 +5,7 @@ class MenuitemsController < ApplicationController
   # GET /menuitems
   # GET /menuitems.json
   def index
-    @menuitems = Menuitem.all
+    @menuitems = Menuitem.search(params[:search])
   end
 
   # GET /menuitems/1
