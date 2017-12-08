@@ -9,3 +9,7 @@
 User.destroy_all
 User.create(email: 'test@example.com', password: '123456',
             password_confirmation: '123456')
+Menuitem.destroy_all
+Menuitem.create(name: 'Pizza Mozarella', price: 5, description: 'Mozarella')
+Menuitem.create(name: 'Pizza Tomaten', price: 4, description: 'Tomaten')
+Menuitem.create(name: 'Pizza Thunfisch', price: 6, description: 'Thunfisch')
