@@ -5,6 +5,10 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+#underscore
+gem 'underscore-rails'
+#API
+gem 'gmaps4rails'
 #Devise
 gem 'devise', '~> 4.2'
 #RSpec
