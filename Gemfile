@@ -14,7 +14,7 @@ gem 'devise', '~> 4.2'
 #RSpec
 gem 'rspec-rails', '~> 3.6'
 #bootstrap
-gem 'bootstrap', '~> 4.0.0.beta2'
+gem 'bootstrap', '~> 4.1.3'
 gem 'bootstrap-sass'
 gem 'jquery-rails'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
