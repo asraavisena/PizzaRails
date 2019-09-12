@@ -10,7 +10,7 @@ gem 'underscore-rails'
 #API
 gem 'gmaps4rails'
 #Devise
-gem 'devise', '~> 4.2'
+gem 'devise', '~> 4.7'
 #RSpec
 gem 'rspec-rails', '~> 3.6'
 #bootstrap
