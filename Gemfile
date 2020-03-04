@@ -23,7 +23,7 @@ gem 'rails', '~> 5.1.4'
 gem 'pg'
 gem 'sqlite3'
 # Use Puma as the app server
-gem 'puma', '~> 3.7'
+gem 'puma', '~> 3.12'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # It automatically adds the proper vendor prefixes to your CSS code when it is compiled.
